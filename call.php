@@ -1,4 +1,7 @@
 <?php
+
+// more details at https://developer.foursquare.com/docs/api/venues/search
+
 ini_set("display_errors","On");
 $client_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 $client_secret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
