@@ -1,6 +1,19 @@
 <?php
 
-// more details at https://developer.foursquare.com/docs/api/venues/search
+// more details at GET https://developer.foursquare.com/docs/api/venues/search
+
+//GET https://api.foursquare.com/v2/venues/VENUE_ID/photos
+
+/*
+Sample url for photo will be made from the respose you get from above api call
+
+that includes
+prefix + size (Width x Height) +suffix
+
+https://developer.foursquare.com/docs/api/venues/photos
+
+https://igx.4sqi.net/img/general/500x300/1219396_eq_4BJum9qzI6ExEUp-NMr1k8KHgr8QYT7KOb053q7E.jpg
+*/
 
 ini_set("display_errors","On");
 $client_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
