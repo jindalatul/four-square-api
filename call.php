@@ -1,5 +1,4 @@
 <?php
-
 // more details at GET https://developer.foursquare.com/docs/api/venues/search
 
 //GET https://api.foursquare.com/v2/venues/VENUE_ID/photos
@@ -18,8 +17,10 @@ https://igx.4sqi.net/img/general/500x300/1219396_eq_4BJum9qzI6ExEUp-NMr1k8KHgr8Q
 ini_set("display_errors","On");
 $client_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 $client_secret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
-
 /*
+
+Standard format of FourSquare API's to fetch data about restaurants and Places.
+
 curl -X GET -G \
   'https://api.foursquare.com/v2/venues/explore' \
     -d client_id="CLIENT_ID" \
@@ -29,6 +30,7 @@ curl -X GET -G \
     -d query="coffee" \
     -d limit=1
 */
+
 $url = 'https://api.foursquare.com/v2/venues/explore';
 $fields = array(
 	'client_id' => urlencode($client_key),
